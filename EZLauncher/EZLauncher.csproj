@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>EZLauncher</Title>
+		<Authors>NoahGWood</Authors>
+		<Description>
+			EZLauncher is a cross-platform .NET library that simplifies the process of opening URLs in the default web browser. It abstracts away the platform specific details, allowing developers to open URLs with a single, easy-to-use function.
+		</Description>
+		<Copyright>Copyright (c) 2023 Noah G Wood</Copyright>
+		<PackageProjectUrl>https://github.com/NoahGWood/EZLauncher</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/NoahGWood/EZLauncher</RepositoryUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+
+</Project>
